@@ -44,7 +44,7 @@
     <td rowspan="3">Optimization</td>
     <td rowspan="3">2017/8/6</td>
     <td rowspan="3">ICML 2017</td>
-    <td>ConvNet-4</td>
+    <td>ConvNet4</td>
     <td>48.70±1.84</td>
     <td>63.11±0.92</td>
     <td>51.67±1.81</td>
@@ -65,10 +65,10 @@
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>http://github.com/cbfinn/maml</td>
+    <td rowspan="3">http://github.com/cbfinn/maml</td>
   </tr>
   <tr>
-    <td>ResNet-12</td>
+    <td>ResNet12</td>
     <td>50.96±0.50</td>
     <td>68.35±0.47</td>
     <td>-</td>
@@ -89,10 +89,9 @@
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>http://github.com/cbfinn/maml</td>
   </tr>
   <tr>
-    <td>ResNet-10</td>
+    <td>ResNet10</td>
     <td>51.98±0.84</td>
     <td>66.62±0.83</td>
     <td>-</td>
@@ -113,39 +112,38 @@
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>http://github.com/cbfinn/maml</td>
     <tr>
-    <td rowspan="3">MAML</td>
-    <td rowspan="3">Optimization-Based</td>
-    <td rowspan="3">2017/8/6</td>
-    <td rowspan="3">ICML 2017</td>
-    <td>ConvNet-4</td>
-    <td>48.70±1.84</td>
-    <td>63.11±0.92</td>
-    <td>51.67±1.81</td>
-    <td>70.30±0.08</td>
-    <td>58.90±1.90</td>
-    <td>71.50±1.00</td>
-    <td>47.85±0.22</td>
-    <td>64.77±0.20</td>
+    <td rowspan="4">Prototypical Nets</td>
+    <td rowspan="4">Metric</td>
+    <td rowspan="4">2017/3/15</td>
+    <td rowspan="4">NIPS 2017</td>
+    <td>ConvNet4</td>
+    <td>49.42±0.78</td>
+    <td>68.20±0.66</td>
+    <td>53.31±0.89</td>
+    <td>72.69±0.74</td>
+    <td>55.50±0.70</td>
+    <td>72.00±0.60</td>
+    <td>56.64±0.23</td>
+    <td>73.66±0.17</td>
+    <td>-</td>
+    <td>-</td>
+    <td>35.30±0.60</td>
+    <td>48.60±0.60</td>
+    <td>98.8</td>
+    <td>99.7</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>98.70±0.40</td>
-    <td>99.90±0.10</td>
     <td>-</td>
     <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>-</td>
-    <td>http://github.com/cbfinn/maml</td>
+    <td rowspan="4">https://github.com/reedscot/cvpr2016</td>
   </tr>
   </tr>
-    <td>ResNet-10</td>
+    <td>ResNet10</td>
     <td>51.98±0.84</td>
-    <td>66.62±0.83</td>
+    <td>72.64±0.64</td>
     <td>-</td>
     <td>-</td>
     <td>-</td>
@@ -164,6 +162,148 @@
     <td>-</td>
     <td>-</td>
     <td>-</td>
-    <td>http://github.com/cbfinn/maml</td>
+  </tr>
+  </tr>
+    <td>ResNet12</td>
+    <td>60.37±0.83</td>
+    <td>78.02±0.57</td>
+    <td>65.65±0.92</td>
+    <td>83.40±0.65</td>
+    <td>72.20±0.70</td>
+    <td>83.50±0.50</td>
+    <td>66.09±0.92</td>
+    <td>82.50±0.58</td>
+    <td>41.54±0.76</td>
+    <td>57.08±0.76</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  </tr>
+    <td>ResNet18</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>72.99±0.88</td>
+    <td>86.64±0.51</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Relation Net</td>
+    <td rowspan="4">Metric</td>
+    <td rowspan="4">2018/6/1</td>
+    <td rowspan="4">CVPR 2018</td>
+    <td>ConvNet4</td>
+    <td>49.31±0.85</td>
+    <td>66.60±0.69</td>
+    <td>54.48±0.93</td>
+    <td>71.32±0.78</td>
+    <td>55.00±1.00</td>
+    <td>69.30±0.80</td>
+    <td>58.81±0.24</td>
+    <td>75.23±0.18</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td rowspan="4">-</td>
+  </tr>
+    </tr>
+    <td>ResNet10</td>
+    <td>52.19±0.83</td>
+    <td>70.20±0.66</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+    </tr>
+    <td>ResNet12</td>
+    <td>52.19±0.83</td>
+    <td>70.20±0.66</td>
+    <td>64.42±0.36</td>
+    <td>81.74±0.61</td>
+    <td>-</td>
+    <td>-</td>
+    <td>70.47±0.99</td>
+    <td>83.70±0.55</td>
+    <td>42.41±0.21</td>
+    <td>57.23±0.62</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+    </tr>
+    <td>ResNet18</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>68.58±0.94</td>
+    <td>84.05±0.56</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
   </tr>
 </table>
