@@ -306,4 +306,101 @@
     <td>-</td>
     <td>-</td>
   </tr>
+    <tr>
+    <td rowspan="4">Matching networks</td>
+    <td rowspan="4">Metric</td>
+    <td rowspan="4">2016/12/5</td>
+    <td rowspan="4">NIPS 2016</td>
+    <td>ConvNet4</td>
+    <td>43.56±0.84</td>
+    <td>55.31±0.73</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>51.45±0.22</td>
+    <td>75.46±0.18</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td rowspan="4">-</td>
+  </tr>
+    </tr>
+    <td>ResNet10</td>
+    <td>54.49±0.81</td>
+    <td>68.82±0.65</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+    </tr>
+    <td>ResNet12</td>
+    <td>63.08±0.80</td>
+    <td>75.99±0.60</td>
+    <td>68.50±0.92</td>
+    <td>80.60±0.71</td>
+    <td>-</td>
+    <td>-</td>
+    <td>71.87±0.85</td>
+    <td>85.08±0.57</td>
+    <td>43.88±0.75</td>
+    <td>57.05±0.71</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
+    </tr>
+    <td>ResNet18</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>73.49±0.89</td>
+    <td>84.45±0.58</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+  </tr>
 </table>
