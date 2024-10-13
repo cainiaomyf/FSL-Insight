@@ -1,4 +1,4 @@
-<table>
+<table border="1">
   <tr>
     <th rowspan="2">Method</th>
     <th rowspan="2">Type</th>
@@ -40,10 +40,10 @@
     <td>5-way<br>5-shot</td>
   </tr>
   <tr>
-    <td>MAML</td>
-    <td>Optimization-Based</td>
-    <td>2017/8/6</td>
-    <td>ICML 2017</td>
+    <td rowspan="3">MAML</td>
+    <td rowspan="3">Optimization</td>
+    <td rowspan="3">2017/8/6</td>
+    <td rowspan="3">ICML 2017</td>
     <td>ConvNet-4</td>
     <td>48.70±1.84</td>
     <td>63.11±0.92</td>
@@ -67,11 +67,7 @@
     <td>-</td>
     <td>http://github.com/cbfinn/maml</td>
   </tr>
-    <tr>
-    <td>MAML</td>
-    <td>Optimization-Based</td>
-    <td>2017/8/6</td>
-    <td>ICML 2017</td>
+  <tr>
     <td>ResNet-12</td>
     <td>50.96±0.50</td>
     <td>68.35±0.47</td>
@@ -95,11 +91,58 @@
     <td>-</td>
     <td>http://github.com/cbfinn/maml</td>
   </tr>
+  <tr>
+    <td>ResNet-10</td>
+    <td>51.98±0.84</td>
+    <td>66.62±0.83</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>http://github.com/cbfinn/maml</td>
     <tr>
-    <td>MAML</td>
-    <td>Optimization-Based</td>
-    <td>2017/8/6</td>
-    <td>ICML 2017</td>
+    <td rowspan="3">MAML</td>
+    <td rowspan="3">Optimization-Based</td>
+    <td rowspan="3">2017/8/6</td>
+    <td rowspan="3">ICML 2017</td>
+    <td>ConvNet-4</td>
+    <td>48.70±1.84</td>
+    <td>63.11±0.92</td>
+    <td>51.67±1.81</td>
+    <td>70.30±0.08</td>
+    <td>58.90±1.90</td>
+    <td>71.50±1.00</td>
+    <td>47.85±0.22</td>
+    <td>64.77±0.20</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>98.70±0.40</td>
+    <td>99.90±0.10</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>-</td>
+    <td>http://github.com/cbfinn/maml</td>
+  </tr>
+  </tr>
     <td>ResNet-10</td>
     <td>51.98±0.84</td>
     <td>66.62±0.83</td>
