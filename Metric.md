@@ -1,4 +1,4 @@
-## [Met](#content)
+![image](https://github.com/user-attachments/assets/3b16df1c-a0f7-4ca2-b393-bcf352934bc0)## [Met](#content)
 
 1. 【ICML‘15】**Siamese neural networks for one-shot image recognition**
 <br>*Koch G, Zemel R, Salakhutdinov R*
@@ -206,3 +206,17 @@
 |ResNet-12|67.29±0.23|78.49±0.21|68.89±0.25|82.08±0.21|74.27±0.23|83.89±0.20|43.99±0.21|56.47±0.24|
 |*MML*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|FC100<br>(5w,1s) | FC100<br>(5w,5s) |
 |ResNet-12|67.58±0.23|81.41±0.20|71.38±0.25|84.65±0.20|75.28±0.23|85.95±0.19|44.43±0.21|59.56±0.25|
+
+
+18. 【CVPR‘20】**Adaptive Subspaces for Few-Shot Learning**
+<br>*Christian Simon, Piotr Koniusz, Richard Nock, Mehrtash Harandi*
+<br>[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Simon_Adaptive_Subspaces_for_Few-Shot_Learning_CVPR_2020_paper.pdf)
+[code](https://github.com/chrysts/dsn_fewshot)
+
+|*DSN*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|CUB<br>(5w,1s) | CUB<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|51.78±0.96|68.99±0.69|51.52 ± 0.21|71.31 ± 0.18|-|-|54.49 ± 0.23|74.10 ± 0.17|
+|ResNet12|62.64±0.66|78.83±0.45|66.22±0.75|82.79±0.48|72.3±0.8|85.1±0.6|-|-|
+|*DSN-MR*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|FC100<br>(5w,1s) | FC100<br>(5w,5s) |
+|ConvNet4|55.88±0.90|70.50±0.68|-|-|-|-|-|-|
+|ResNet12|64.60±0.72|79.51±0.50|67.39±0.82|82.85±0.56|75.6±0.9|86.2±0.6|-|-|
