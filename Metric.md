@@ -52,20 +52,7 @@
 |ResNet18|-|-|-|-|-|-|68.58±0.94|84.05±0.56|-|-|-|-|-|-|
 
 
-5. 【CVPR‘18】**Learning to compare: Relation network for few-shot learning**
-<br>*Sung F, Yang Y, Zhang L, Xiang T, Torr P H, Hospedales T M*
-<br>[paper](https://proceedings.neurips.cc/paper/2016/file/90e1357833654983612fb05e3ec9148c-Paper.pdf)
-[code]()
-
-|*Relation Nets*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) | CUB<br>(5w,1s) | CUB<br>(5w,5s) |CIFAR100<br>(5w,1s) | CIFAR100<br>(5w,5s) |FC100<br>(5w,1s) | FC100<br>(5w,5s) | Omn<br>(5w,1s) | Omn<br>(5w,5s) |
-|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
-|ConvNet4|49.31±0.85<br>[50.18±0.46]|66.60±0.69<br>[65.34±0.41]|54.48±0.93|71.32±0.78|55.00±1.00<br>[55.84±0.37]|69.30±0.80<br>[69.57±0.30|58.81±0.24<br>[57.40±0.36]|75.23±0.18<br>[72.09±0.31]|-|-|[35.80±0.18]|[47.80±0.24]|[98.02±0.09]|[99.25±0.05]|
-|ResNet10|52.19±0.83|70.20±0.66|-|-|-|-|-|-|-|-|-|-|-|-|
-|ResNet12|52.19±0.83|70.20±0.66|64.42±0.36|81.74±0.61|-|-|70.47±0.99|83.70±0.55|42.41±0.21|57.23±0.62|-|-|-|-|
-|ResNet18|-|-|-|-|-|-|68.58±0.94|84.05±0.56|-|-|-|-|-|-|
-
-
-6. 【ICCV‘21】**Meta-baseline: Exploring simple meta-learning for few-shot learning**
+5. 【ICCV‘21】**Meta-baseline: Exploring simple meta-learning for few-shot learning**
 <br>*Yinbo Chen, Zhuang Liu, Huijuan Xu, Trevor Darrell, Xiaolong Wang*
 <br>[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Meta-Baseline_Exploring_Simple_Meta-Learning_for_Few-Shot_Learning_ICCV_2021_paper.pdf)
 [code](https://github.com/yinboc/few-shot-meta-baseline)
@@ -79,16 +66,23 @@
 |ResNet12|63.17±0.23|79.26±0.17|68.62±0.27| 83.74±0.18|
 
 
-7. 【NIPS‘21】**Multi-instance attention network for few-shot learning**
+6. 【ins‘22】**Multi-instance attention network for few-shot learning**
 <br>*YXu Luo, Longhui Wei, Liangjian Wen, Jinrong Yang, Lingxi Xie, Zenglin Xu, Qi Tian*
+<br>[paper](https://proceedings.neurips.cc/paper/2021/file/6cfe0e6127fa25df2a0ef2ae1067d915-Paper.pdf)
+[code](https://github.com/rumorgin/MIAN)
+
+|*MIAN*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|-|-|-|-|
+|ResNet12|64.27±0.35|85.16±0.42|69.89±0.36|86.05±0.26|
+
+
+7. 【NIPS‘21】**Rectifying the shortcut learning of background for few-shot learning**
+<br>*Sung F, Yang Y, Zhang L, Xiang T*
 <br>[paper](https://proceedings.neurips.cc/paper/2021/file/6cfe0e6127fa25df2a0ef2ae1067d915-Paper.pdf)
 [code](https://github.com/Frankluox/FewShotCodeBase)
 
 |*COSOC*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
 |:------:|:------:|:------:|:------:|:------:|
 |ConvNet4|-|-|-|-|
-|ResNet12|69.28±0.49|85.16±0.42|73.57 ± 0.43|87.57 ± 0.10|
-
-
-
-
+|ResNet12|69.28±0.49|81.24±0.26|73.57±0.43|87.57±0.10|
