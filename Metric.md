@@ -163,3 +163,11 @@
 |*FEAT+LASTSHOT (LR)*|67.35 ± 0.20|82.58 ± 0.14|72.43 ± 0.23|85.82 ± 0.16|80.20 ± 0.21|91.49 ± 0.12|
 
 
+12. 【AAAI‘22】**Adaptive Poincare Point to Set Distance for Few-Shot Classification**
+<br>*Rongkai Ma, Pengfei Fang, Tom Drummond, Mehrtash Harandi*
+<br>[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20087/19846)
+
+|*APP2S*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) |CUB<br>(5w,1s) | CUB<br>(5w,5s) |CIFAR100<br>(5w,1s) | CIFAR100<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ResNet-12|66.25±0.20|83.42±0.15|72.00±0.22|86.23±0.15|73.12±0.22|85.69±0.16|-|-|47.64±0.21|63.56±0.22|
+|ResNet-18|64.82±0.12|81.31±0.22|70.83±0.15|84.15±0.29|-|-|77.64±0.19|90.43±0.18|-|-|
