@@ -37,8 +37,20 @@
 |ResNet12|60.37±0.83|78.02±0.57|65.65±0.92|83.40±0.65|72.20±0.70|83.50±0.50|66.09±0.92|82.50±0.58|41.54±0.76|57.08±0.76|-|-|-|-|
 |ResNet18|-|-|-|-|-|-|72.99±0.88|86.64±0.51|-|-|-|-|-|-|
 
+4. 【ICLR‘18】**Few-shot learning with graph neural networks**
+<br>*Victor Garcia, Joan Bruna*
+<br>[paper](https://arxiv.org/pdf/1711.04043)
+[code](https://github.com/vgsatorras/few-shot-gnn)
 
-4. 【CVPR‘18】**Learning to compare: Relation network for few-shot learning**
+|*GNN-FSL*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) | CUB<br>(5w,1s) | CUB<br>(5w,5s) |CIFAR100<br>(5w,1s) | CIFAR100<br>(5w,5s) |FC100<br>(5w,1s) | FC100<br>(5w,5s) | Omn<br>(5w,1s) | Omn<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|50.33±0.36|66.41±0.63|54.97|70.92|-|-|-|-|-|-|-|-|-|-|
+|ResNet10|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|ResNet12|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+|ResNet18|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+
+
+5. 【CVPR‘18】**Learning to compare: Relation network for few-shot learning**
 <br>*Sung F, Yang Y, Zhang L, Xiang T, Torr P H, Hospedales T M*
 <br>[paper](https://proceedings.neurips.cc/paper/2016/file/90e1357833654983612fb05e3ec9148c-Paper.pdf)
 [code]()
@@ -51,7 +63,7 @@
 |ResNet18|-|-|-|-|-|-|68.58±0.94|84.05±0.56|-|-|-|-|-|-|
 
 
-5. 【CVPR‘19】**Meta-Learning with Differentiable Convex Optimization**
+6. 【CVPR‘19】**Meta-Learning with Differentiable Convex Optimization**
 <br>*Kwonjoon Lee, Subhransu Maji, Avinash Ravichandran, Stefano Soatto*
 <br>[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lee_Meta-Learning_With_Differentiable_Convex_Optimization_CVPR_2019_paper.pdf)
 [code](https://github.com/kjunelee/MetaOptNet)
@@ -61,7 +73,7 @@
 |ConvNet4|-|-|-|-|-|-|-|-|
 |ResNet12|62.64 ± 0.61|78.63 ± 0.46|65.99 ± 0.72|81.56 ± 0.53|72.8 ± 0.7|85.0 ± 0.5|47.2 ± 0.6|62.5 ± 0.6|
 
-6. 【CVPR‘20】**Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions**
+7. 【CVPR‘20】**Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions**
 <br>*Han-Jia Ye, Hexiang Hu,De-Chuan Zhan, Fei Sha*
 <br>[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ye_Few-Shot_Learning_via_Embedding_Adaptation_With_Set-to-Set_Functions_CVPR_2020_paper.pdf)
 [code](https://github.com/Sha-Lab/FEAT)
@@ -72,7 +84,7 @@
 |ResNet12|66.78|82.05|70.80 ± 0.23|84.79 ± 0.16|-|-|
 
 
-7. 【ICCV‘21】**Meta-baseline: Exploring simple meta-learning for few-shot learning**
+8. 【ICCV‘21】**Meta-baseline: Exploring simple meta-learning for few-shot learning**
 <br>*Yinbo Chen, Zhuang Liu, Huijuan Xu, Trevor Darrell, Xiaolong Wang*
 <br>[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Chen_Meta-Baseline_Exploring_Simple_Meta-Learning_for_Few-Shot_Learning_ICCV_2021_paper.pdf)
 [code](https://github.com/yinboc/few-shot-meta-baseline)
@@ -85,7 +97,7 @@
 |ConvNet4|-|-|-|-|
 |ResNet12|63.17 ± 0.23|79.26 ± 0.17|68.62 ± 0.27| 83.74 ± 0.18|
 
-8. 【neunet‘21】**Self-augmentation: Generalizing deep networks to unseen classes for few-shot learning**
+9. 【neunet‘21】**Self-augmentation: Generalizing deep networks to unseen classes for few-shot learning**
 <br>*Jin-Woo Seoa, Hong-Gyu Junga, Seong-Whan Lee*
 <br>[paper](https://arxiv.org/pdf/2004.00251)
 [code]()
@@ -96,7 +108,7 @@
 |*SA + LRL*|65.37 ± 0.45|82.68 ± 0.30|71.31 ± 0.50|86.41 ± 0.33|
 
 
-9. 【ICCV‘21】**Binocular Mutual Learning for Improving Few-shot Classification**
+10. 【ICCV‘21】**Binocular Mutual Learning for Improving Few-shot Classification**
 <br>*Ziqi Zhou, Xi Qiu,Jiangtao Xie,Jianan Wu, Chi Zhang1*
 <br>[paper](https://arxiv.org/pdf/2004.00251)
 [code](https://github.com/ZZQzzq/BML)
@@ -108,7 +120,7 @@
 |*BML*|67.04±0.63|83.63±0.29|68.99±0.50|85.49±0.34|73.45±0.47|88.04±0.33|76.21±0.63|90.45±0.36|
 
 
-10. 【ICCV‘21】**Curvature Generation in Curved Spaces for Few-Shot Learning**
+11. 【ICCV‘21】**Curvature Generation in Curved Spaces for Few-Shot Learning**
 <br>*Zhi Gao, Yuwei Wu, Yunde Jia, Mehrtash Harandi*
 <br>[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Curvature_Generation_in_Curved_Spaces_for_Few-Shot_Learning_ICCV_2021_paper.pdf)
 [code](https://github.com/ZhiGaomcislab/CurvatureGeneration_FSL)
@@ -124,7 +136,7 @@
 |BigResNet-12|71.79±0.23|83.00±0.17|77.19±0.24|86.18±0.15|76.8±0.7|86.4±0.5|76.69±0.21|89.30±0.12|
 
 
-11. 【NIPS‘21】**Rectifying the shortcut learning of background for few-shot learning**
+12. 【NIPS‘21】**Rectifying the shortcut learning of background for few-shot learning**
 <br>*Sung F, Yang Y, Zhang L, Xiang T*
 <br>[paper](https://proceedings.neurips.cc/paper/2021/file/6cfe0e6127fa25df2a0ef2ae1067d915-Paper.pdf)
 [code](https://github.com/Frankluox/FewShotCodeBase)
@@ -135,7 +147,7 @@
 |ResNet12|69.28 ± 0.49|81.24 ± 0.26|73.57 ± 0.43|87.57 ± 0.10|
 
 
-12. 【ins‘22】**Multi-instance attention network for few-shot learning**
+13. 【ins‘22】**Multi-instance attention network for few-shot learning**
 <br>*YXu Luo, Longhui Wei, Liangjian Wen, Jinrong Yang, Lingxi Xie, Zenglin Xu, Qi Tian*
 <br>[paper](https://proceedings.neurips.cc/paper/2021/file/6cfe0e6127fa25df2a0ef2ae1067d915-Paper.pdf)
 [code](https://github.com/rumorgin/MIAN)
@@ -146,7 +158,7 @@
 |ResNet12|64.27 ± 0.35|85.16 ± 0.42|69.89 ± 0.36|86.05 ± 0.26|
 
 
-13. 【tpami‘22】**Few-Shot Learning with a Strong Teacher**
+14. 【tpami‘22】**Few-Shot Learning with a Strong Teacher**
 <br>*Sung F, Yang Y, Zhang L, Xiang T*
 <br>[paper](https://proceedings.neurips.cc/paper/2021/file/6cfe0e6127fa25df2a0ef2ae1067d915-Paper.pdf)
 [code](https://github.com/Han-Jia/LastShot)
@@ -163,7 +175,7 @@
 |*FEAT+LASTSHOT (LR)*|67.35 ± 0.20|82.58 ± 0.14|72.43 ± 0.23|85.82 ± 0.16|80.20 ± 0.21|91.49 ± 0.12|
 
 
-12. 【AAAI‘22】**Adaptive Poincare Point to Set Distance for Few-Shot Classification**
+15. 【AAAI‘22】**Adaptive Poincare Point to Set Distance for Few-Shot Classification**
 <br>*Rongkai Ma, Pengfei Fang, Tom Drummond, Mehrtash Harandi*
 <br>[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20087/19846)
 
