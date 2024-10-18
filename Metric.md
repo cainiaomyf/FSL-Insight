@@ -3,7 +3,7 @@
 [paper](https://proceedings.neurips.cc/paper_files/paper/2017/file/cb8da6767461f2812ae4290eac7cbc42-Paper.pdf)
 [code](https://github.com/jakesnell/prototypical-networks)
 
-|*MAML*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) | CUB<br>(5w,1s) | CUB<br>(5w,5s) |CIFAR100<br>(5w,1s) | CIFAR100<br>(5w,5s) |FC100<br>(5w,1s) | FC100<br>(5w,5s) | Omn<br>(5w,1s) | Omn<br>(5w,5s) |
+|*Prototypical Nets*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) | CUB<br>(5w,1s) | CUB<br>(5w,5s) |CIFAR100<br>(5w,1s) | CIFAR100<br>(5w,5s) |FC100<br>(5w,1s) | FC100<br>(5w,5s) | Omn<br>(5w,1s) | Omn<br>(5w,5s) |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |ConvNet4|49.42±0.78<br>[48.85±0.42]|68.20±0.66<br>[66.87±0.25]|53.31±0.89|72.69±0.74|55.50±0.70<br>[55.49±0.21]|72.00±0.60<br>[72.10±0.13]|56.64±0.23<br>[51.31±0.48]|73.66±0.17<br>[70.14±0.19]|-|-|35.30±0.60<br>[35.90±0.24]|48.60±0.60<br>[49.26±0.25]|98.8<br>[98.27±0.13]|99.7<br>[99.37±0.05]|
 |ResNet10|51.98±0.84|72.64±0.64|-|-|-|-|-|-|-|-|-|-|-|-|
