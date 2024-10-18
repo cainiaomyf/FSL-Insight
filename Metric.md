@@ -122,7 +122,6 @@
 <br>[paper](https://arxiv.org/pdf/2004.00251)
 [code](https://github.com/ZZQzzq/BML)
 
-
 |*ResNet12*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) | CUB<br>(5w,1s) | CUB<br>(5w,5s) |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |*Baseline-local*|58.96±0.45|77.07±0.34|64.46±0.51|82.21±0.36|67.60±0.49|84.78±0.34|66.79±0.49|86.55±0.28|
@@ -136,9 +135,36 @@
 <br>[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ye_Few-Shot_Learning_via_Embedding_Adaptation_With_Set-to-Set_Functions_CVPR_2020_paper.pdf)
 [code](https://github.com/Sha-Lab/FEAT)
 
-
 |*FEAT*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
 |:------:|:------:|:------:|:------:|:------:|
 |ConvNet4|55.15|71.61|-|-|
 |ResNet12|66.78|82.05|70.80 ± 0.23|84.79 ± 0.16|
 
+
+
+12. 【CVPR‘19】**Meta-Learning with Differentiable Convex Optimization**
+<br>*Kwonjoon Lee, Subhransu Maji, Avinash Ravichandran, Stefano Soatto*
+<br>[paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lee_Meta-Learning_With_Differentiable_Convex_Optimization_CVPR_2019_paper.pdf)
+[code](https://github.com/kjunelee/MetaOptNet)
+
+|*FEAT*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) |FC100<br>(5w,1s) | FC100<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|-|-|-|-|-|-|-|-|
+|ResNet12|62.64 ± 0.61|78.63 ± 0.46|65.99 ± 0.72|81.56 ± 0.53|72.8 ± 0.7|85.0 ± 0.5|47.2 ± 0.6|62.5 ± 0.6|
+
+
+
+12. 【ICCV‘21】**Curvature Generation in Curved Spaces for Few-Shot Learning**
+<br>*Zhi Gao, Yuwei Wu, Yunde Jia, Mehrtash Harandi*
+<br>[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Curvature_Generation_in_Curved_Spaces_for_Few-Shot_Learning_ICCV_2021_paper.pdf)
+[code](https://github.com/ZhiGaomcislab/CurvatureGeneration_FSL)
+
+|*In.CCG+HAN*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) |CUB<br>(5w,1s) | CUB<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|55.53±0.20|72.12±0.16|-|-|-|-|-|-|
+|ResNet12|63.56±0.20|79.13±0.14|-|-|-|-|-|-|
+|BigResNet-12|67.02±0.20|82.32±0.14|71.66±0.23|85.50±0.15|73.0±0.7|85.8±0.5|74.66±0.21|88.37±0.12|
+|*Tran.CCG+HAN*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) |CUB<br>(5w,1s) | CUB<br>(5w,5s) |
+|ConvNet4|55.53±0.20|72.12±0.16|-|-|-|-|-|-|
+|ResNet12|66.73±0.22|80.57±0.14|-|-|-|-|-|-|
+|BigResNet-12|71.79±0.23|83.00±0.17|77.19±0.24|86.18±0.15|76.8±0.7|86.4±0.5|76.69±0.21|89.30±0.12|
