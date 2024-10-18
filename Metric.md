@@ -81,7 +81,7 @@
 |*FEAT*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) | CUB<br>(5w,1s) | CUB<br>(5w,5s) |
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |ConvNet4|55.15|71.61|-|-|68.87 ± 0.22|82.90 ± 0.15|
-|ResNet12|66.78|82.05|70.80 ± 0.23|84.79 ± 0.16|-|-|
+|ResNet12|66.78±0.20|82.05±0.14|70.80 ± 0.23|84.79 ± 0.16|-|-|
 
 
 8. 【ICCV‘21】**Meta-baseline: Exploring simple meta-learning for few-shot learning**
@@ -93,7 +93,7 @@
 |:------:|:------:|:------:|:------:|:------:|
 |ConvNet4|-|-|-|-|
 |ResNet12|58.91 ± 0.23|77.76 ± 0.17|68.07 ± 0.26|83.74 ± 0.18|
-|*Classifier-Baseline*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
+|*Meta-baseline*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
 |ConvNet4|-|-|-|-|
 |ResNet12|63.17 ± 0.23|79.26 ± 0.17|68.62 ± 0.27| 83.74 ± 0.18|
 
@@ -194,3 +194,15 @@
 |:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
 |ResNet-12|66.25±0.20|83.42±0.15|72.00±0.22|86.23±0.15|73.12±0.22|85.69±0.16|-|-|47.64±0.21|63.56±0.22|
 |ResNet-18|64.82±0.12|81.31±0.22|70.83±0.15|84.15±0.29|-|-|77.64±0.19|90.43±0.18|-|-|
+
+
+17. 【ArXir‘21】**Multi-level metric learning for few-shot image recognition**
+<br>*Haoxing Chen, Huaxiong Li, Yaohui Li, Chunlin Chen*
+<br>[paper](https://arxiv.org/pdf/2103.11383)
+[code](https://github.com/chenhaoxing/M2L)
+
+|*PEAG*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|FC100<br>(5w,1s) | FC100<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ResNet-12|67.29±0.23|78.49±0.21|68.89±0.25|82.08±0.21|74.27±0.23|83.89±0.20|43.99±0.21|56.47±0.24|
+|*MML*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|FC100<br>(5w,1s) | FC100<br>(5w,5s) |
+|ResNet-12|67.58±0.23|81.41±0.20|71.38±0.25|84.65±0.20|75.28±0.23|85.95±0.19|44.43±0.21|59.56±0.25|
