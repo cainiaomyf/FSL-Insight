@@ -119,8 +119,19 @@
 |*Baseline-global*|61.71±0.48|81.21±0.32|63.27±0.52|82.22±0.36|69.74±0.49|87.37±0.34|60.13±0.49|79.77±0.36|
 |*BML*|67.04±0.63|83.63±0.29|68.99±0.50|85.49±0.34|73.45±0.47|88.04±0.33|76.21±0.63|90.45±0.36|
 
+11. 【ICME‘21】**Multi-pretext attention network for few-shot learning with self-supervisio**
+<br>*Hainan Li, Renshuai Tao, Jun Li, Haotong Qin, Yifu Ding, Shuo Wang, Xianglong Liu*
+<br>[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Curvature_Generation_in_Curved_Spaces_for_Few-Shot_Learning_ICCV_2021_paper.pdf)
+[code](https://ieeexplore.ieee.org/document/9428447)
 
-11. 【ICCV‘21】**Curvature Generation in Curved Spaces for Few-Shot Learning**
+|*MAN*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|51.30±0.45|68.21±0.37|-|-|
+|ResNet12|61.70±0.47|78.42±0.34|65.99±0.51|81.97±0.37|
+|WRN28|64.51±0.47|80.93±0.33|70.35±0.51|84.09±0.36|
+
+
+12. 【ICCV‘21】**Curvature Generation in Curved Spaces for Few-Shot Learning**
 <br>*Zhi Gao, Yuwei Wu, Yunde Jia, Mehrtash Harandi*
 <br>[paper](https://openaccess.thecvf.com/content/ICCV2021/papers/Gao_Curvature_Generation_in_Curved_Spaces_for_Few-Shot_Learning_ICCV_2021_paper.pdf)
 [code](https://github.com/ZhiGaomcislab/CurvatureGeneration_FSL)
@@ -136,7 +147,7 @@
 |BigResNet-12|71.79±0.23|83.00±0.17|77.19±0.24|86.18±0.15|76.8±0.7|86.4±0.5|76.69±0.21|89.30±0.12|
 
 
-12. 【NIPS‘21】**Rectifying the shortcut learning of background for few-shot learning**
+13. 【NIPS‘21】**Rectifying the shortcut learning of background for few-shot learning**
 <br>*Sung F, Yang Y, Zhang L, Xiang T*
 <br>[paper](https://proceedings.neurips.cc/paper/2021/file/6cfe0e6127fa25df2a0ef2ae1067d915-Paper.pdf)
 [code](https://github.com/Frankluox/FewShotCodeBase)
@@ -147,7 +158,7 @@
 |ResNet12|69.28 ± 0.49|81.24 ± 0.26|73.57 ± 0.43|87.57 ± 0.10|
 
 
-13. 【ins‘22】**Multi-instance attention network for few-shot learning**
+14. 【ins‘22】**Multi-instance attention network for few-shot learning**
 <br>*YXu Luo, Longhui Wei, Liangjian Wen, Jinrong Yang, Lingxi Xie, Zenglin Xu, Qi Tian*
 <br>[paper](https://proceedings.neurips.cc/paper/2021/file/6cfe0e6127fa25df2a0ef2ae1067d915-Paper.pdf)
 [code](https://github.com/rumorgin/MIAN)
@@ -158,7 +169,7 @@
 |ResNet12|64.27 ± 0.35|85.16 ± 0.42|69.89 ± 0.36|86.05 ± 0.26|
 
 
-14. 【tpami‘22】**Few-Shot Learning with a Strong Teacher**
+15. 【tpami‘22】**Few-Shot Learning with a Strong Teacher**
 <br>*Sung F, Yang Y, Zhang L, Xiang T*
 <br>[paper](https://proceedings.neurips.cc/paper/2021/file/6cfe0e6127fa25df2a0ef2ae1067d915-Paper.pdf)
 [code](https://github.com/Han-Jia/LastShot)
@@ -175,7 +186,7 @@
 |*FEAT+LASTSHOT (LR)*|67.35 ± 0.20|82.58 ± 0.14|72.43 ± 0.23|85.82 ± 0.16|80.20 ± 0.21|91.49 ± 0.12|
 
 
-15. 【AAAI‘22】**Adaptive Poincare Point to Set Distance for Few-Shot Classification**
+16. 【AAAI‘22】**Adaptive Poincare Point to Set Distance for Few-Shot Classification**
 <br>*Rongkai Ma, Pengfei Fang, Tom Drummond, Mehrtash Harandi*
 <br>[paper](https://ojs.aaai.org/index.php/AAAI/article/view/20087/19846)
 
