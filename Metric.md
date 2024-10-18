@@ -117,7 +117,7 @@
 
 
 
-10. 【neunet‘21】**Binocular Mutual Learning for Improving Few-shot Classification**
+10. 【ICCV‘21】**Binocular Mutual Learning for Improving Few-shot Classification**
 <br>*Ziqi Zhou, Xi Qiu,Jiangtao Xie,Jianan Wu, Chi Zhang1*
 <br>[paper](https://arxiv.org/pdf/2004.00251)
 [code](https://github.com/ZZQzzq/BML)
@@ -131,14 +131,14 @@
 
 
 
-11. 【neunet‘21】**Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions**
+11. 【CVPR‘20】**Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions**
 <br>*Han-Jia Ye, Hexiang Hu,De-Chuan Zhan, Fei Sha*
-<br>[paper]()
+<br>[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ye_Few-Shot_Learning_via_Embedding_Adaptation_With_Set-to-Set_Functions_CVPR_2020_paper.pdf)
 [code](https://github.com/Sha-Lab/FEAT)
 
 
 |*FEAT*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
-|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|:------:|:------:|:------:|:------:|:------:|
 |ConvNet4|55.15|71.61|-|-|
 |ResNet12|66.78|82.05|70.80 ± 0.23|84.79 ± 0.16|
 
