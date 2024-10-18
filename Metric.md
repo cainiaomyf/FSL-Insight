@@ -60,10 +60,10 @@
 |*Classifier-Baseline*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
 |:------:|:------:|:------:|:------:|:------:|
 |ConvNet4|-|-|-|-|
-|ResNet12|58.91±0.23|77.76±0.17|68.07±0.26|83.74±0.18|
+|ResNet12|58.91 ± 0.23|77.76 ± 0.17|68.07 ± 0.26|83.74 ± 0.18|
 |*Classifier-Baseline*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
 |ConvNet4|-|-|-|-|
-|ResNet12|63.17±0.23|79.26±0.17|68.62±0.27| 83.74±0.18|
+|ResNet12|63.17 ± 0.23|79.26 ± 0.17|68.62 ± 0.27| 83.74 ± 0.18|
 
 
 6. 【ins‘22】**Multi-instance attention network for few-shot learning**
@@ -74,7 +74,7 @@
 |*MIAN*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
 |:------:|:------:|:------:|:------:|:------:|
 |ConvNet4|-|-|-|-|
-|ResNet12|64.27±0.35|85.16±0.42|69.89±0.36|86.05±0.26|
+|ResNet12|64.27 ± 0.35|85.16 ± 0.42|69.89 ± 0.36|86.05 ± 0.26|
 
 
 7. 【NIPS‘21】**Rectifying the shortcut learning of background for few-shot learning**
@@ -85,7 +85,7 @@
 |*COSOC*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
 |:------:|:------:|:------:|:------:|:------:|
 |ConvNet4|-|-|-|-|
-|ResNet12|69.28±0.49|81.24±0.26|73.57±0.43|87.57±0.10|
+|ResNet12|69.28 ± 0.49|81.24 ± 0.26|73.57 ± 0.43|87.57 ± 0.10|
 
 
 8. 【tpami‘22】**Few-Shot Learning with a Strong Teacher**
@@ -103,4 +103,42 @@
 |*MetaOptNet+LASTSHOT (LR)*|65.08 ± 0.20|80.40 ± 0.14|68.29 ± 0.23|83.45 ± 0.16|78.79 ± 0.21|90.46 ± 0.12|
 |*FEAT+LASTSHOT (NC)*|67.33 ± 0.20|82.39 ± 0.14|72.03 ± 0.23|85.66 ± 0.1|80.07 ± 0.21|91.43 ± 0.12|
 |*FEAT+LASTSHOT (LR)*|67.35 ± 0.20|82.58 ± 0.14|72.43 ± 0.23|85.82 ± 0.16|80.20 ± 0.21|91.49 ± 0.12|
+
+
+9. 【neunet‘21】**Self-augmentation: Generalizing deep networks to unseen classes for few-shot learning**
+<br>*Jin-Woo Seoa, Hong-Gyu Junga, Seong-Whan Lee*
+<br>[paper](https://arxiv.org/pdf/2004.00251)
+[code]()
+
+|*ResNet12*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|
+|*Self-Augmentation*|65.27 ± 0.45|81.84 ± 0.32|71.26 ± 0.50|85.55 ± 0.34|
+|*SA + LRL*|65.37 ± 0.45|82.68 ± 0.30|71.31 ± 0.50|86.41 ± 0.33|
+
+
+
+10. 【neunet‘21】**Binocular Mutual Learning for Improving Few-shot Classification**
+<br>*Ziqi Zhou, Xi Qiu,Jiangtao Xie,Jianan Wu, Chi Zhang1*
+<br>[paper](https://arxiv.org/pdf/2004.00251)
+[code](https://github.com/ZZQzzq/BML)
+
+
+|*ResNet12*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s) | CUB<br>(5w,1s) | CUB<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|*Baseline-local*|58.96±0.45|77.07±0.34|64.46±0.51|82.21±0.36|67.60±0.49|84.78±0.34|66.79±0.49|86.55±0.28|
+|*Baseline-global*|61.71±0.48|81.21±0.32|63.27±0.52|82.22±0.36|69.74±0.49|87.37±0.34|60.13±0.49|79.77±0.36|
+|*BML*|67.04±0.63|83.63±0.29|68.99±0.50|85.49±0.34|73.45±0.47|88.04±0.33|76.21±0.63|90.45±0.36|
+
+
+
+11. 【neunet‘21】**Few-Shot Learning via Embedding Adaptation with Set-to-Set Functions**
+<br>*Han-Jia Ye, Hexiang Hu,De-Chuan Zhan, Fei Sha*
+<br>[paper]()
+[code](https://github.com/Sha-Lab/FEAT)
+
+
+|*FEAT*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|55.15|71.61|-|-|
+|ResNet12|66.78|82.05|70.80 ± 0.23|84.79 ± 0.16|
 
