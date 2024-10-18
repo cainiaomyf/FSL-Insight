@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3b16df1c-a0f7-4ca2-b393-bcf352934bc0)## [Met](#content)
+## [Met](#content)
 
 1. 【ICML‘15】**Siamese neural networks for one-shot image recognition**
 <br>*Koch G, Zemel R, Salakhutdinov R*
@@ -220,3 +220,55 @@
 |*DSN-MR*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|FC100<br>(5w,1s) | FC100<br>(5w,5s) |
 |ConvNet4|55.88±0.90|70.50±0.68|-|-|-|-|-|-|
 |ResNet12|64.60±0.72|79.51±0.50|67.39±0.82|82.85±0.56|75.6±0.9|86.2±0.6|-|-|
+
+
+18. 【ECCV‘22】**Adaptive Subspaces for Few-Shot Learning**
+<br>*Christian Simon, Piotr Koniusz, Richard Nock, Mehrtash Harandi*
+<br>[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910406.pdf)
+[code](https://github.com/LiShuo1001/LF2CS)
+
+|*LF2CS*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|48.32±0.64|61.52±0.52|49.15±0.65|62.54±0.58|51.52±0.72|66.82±0.57|
+|ResNet12|53.14±0.62|67.36±0.50|53.16±0.66|66.59±0.57|55.04±0.72|70.62±0.57|
+
+
+19. 【ECCV‘22】**Rethinking few-shot image classification: a good embedding is all you need**
+<br>*Yonglong Tian, Yue Wang1, Dilip Krishnan, Joshua B. Tenenbaum, Phillip Isola*
+<br>[paper](https://arxiv.org/pdf/2003.11539)
+[code](http://github.com/WangYueFt/rfs)
+
+|*RFS*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|FC100<br>(5w,1s) | FC100<br>(5w,5s)|
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|55.25 ± 0.58|71.56 ± 0.52|56.18 ± 0.70|72.99 ± 0.55|62.7 ± 0.8|78.7 ± 0.5|39.6 ± 0.6|53.5 ± 0.5|
+|ResNet12|62.02 ± 0.63|79.64 ± 0.44|69.74 ± 0.72|84.41 ± 0.55|71.5 ± 0.8|86.0 ± 0.5|42.6 ± 0.7|59.1 ± 0.6|
+|SEResNet-12|62.29 ± 0.60|79.94 ± 0.46|70.31 ± 0.70|85.22 ± 0.50|72.0 ± 0.8|86.0 ± 0.6|43.4 ± 0.6|59.1 ± 0.6|
+|*RFS-distill*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|FC100<br>(5w,1s) | FC100<br>(5w,5s)|
+|ConvNet4|55.88 ± 0.59|71.65 ± 0.51|56.76 ± 0.68|73.21 ± 0.54|63.8 ± 0.8|79.5 ± 0.5|40.3 ± 0.6|54.1 ± 0.5|
+|ResNet12|64.82 ± 0.60|82.14 ± 0.43|71.52 ± 0.69|86.03 ± 0.49|73.9 ± 0.8|86.9 ± 0.5|44.6 ± 0.7|60.9 ± 0.6|
+|SEResNet-12|65.96 ± 0.63|82.05 ± 0.46|71.72 ± 0.69|86.54 ± 0.49|74.2 ± 0.8|87.2 ± 0.5|44.9 ± 0.6|61.4 ± 0.6|
+|*RFS-simple*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|FC100<br>(5w,1s) | FC100<br>(5w,5s)|
+|ConvNet4|56.32 ± 0.58|72.46 ± 0.52|56.53 ± 0.68|73.15 ± 0.58|63.5 ± 0.8|79.8 ± 0.5|43.2 ± 0.6|58.5 ± 0.5|
+|ResNet12|63.59 ± 0.61|80.86 ± 0.47|71.12 ± 0.68|85.94 ± 0.46|73.1 ± 0.8|86.7 ± 0.5|49.5 ± 0.7|66.4 ± 0.6|
+|SEResNet-12|64.07 ± 0.61|80.92 ± 0.43|71.76 ± 0.66|86.27 ± 0.45|73.3 ± 0.8|86.8 ± 0.5|49.9 ± 0.7|66.8 ± 0.6|
+|*RFS-distill-trainval*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |CIFARFS<br>(5w,1s) | CIFARFS<br>(5w,5s)|FC100<br>(5w,1s) | FC100<br>(5w,5s)|
+|ConvNet4|56.64 ± 0.58|72.85 ± 0.50|57.35 ± 0.70|73.98 ± 0.56|64.9 ± 0.8|80.3 ± 0.5|44.6 ± 0.6|59.2 ± 0.5|
+|ResNet12|66.58 ± 0.65|83.22 ± 0.39|72.98 ± 0.71|87.46 ± 0.44|75.4 ± 0.8|88.2 ± 0.5|51.6 ± 0.7|68.4 ± 0.6|
+|SEResNet-12|67.73 ± 0.63|83.35 ± 0.41|72.55 ± 0.69|86.72 ± 0.49|75.6 ± 0.8|88.2 ± 0.5|52.0 ± 0.7|68.8 ± 0.6|
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
