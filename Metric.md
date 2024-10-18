@@ -66,10 +66,10 @@
 <br>[paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/Ye_Few-Shot_Learning_via_Embedding_Adaptation_With_Set-to-Set_Functions_CVPR_2020_paper.pdf)
 [code](https://github.com/Sha-Lab/FEAT)
 
-|*FEAT*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
-|:------:|:------:|:------:|:------:|:------:|
-|ConvNet4|55.15|71.61|-|-|
-|ResNet12|66.78|82.05|70.80 ± 0.23|84.79 ± 0.16|
+|*FEAT*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) | CUB<br>(5w,1s) | CUB<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|55.15|71.61|-|-|68.87 ± 0.22|82.90 ± 0.15|
+|ResNet12|66.78|82.05|70.80 ± 0.23|84.79 ± 0.16|-|-|
 
 
 7. 【ICCV‘21】**Meta-baseline: Exploring simple meta-learning for few-shot learning**
