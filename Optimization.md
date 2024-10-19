@@ -21,9 +21,16 @@
 |:------:|:------:|:------:|
 |ConvNet4|52.15±0.26|68.32±0.44|
 
+3. 【CVPR’19】**Task Agnostic Meta-Learning for Few-Shot Learning**
+*Muhammad Abdullah Jama, Guo-Jun Qi*
+[paper]([https://openreview.net/pdf?id=HJGven05Y7](https://openaccess.thecvf.com/content_CVPR_2019/papers/Jamal_Task_Agnostic_Meta-Learning_for_Few-Shot_Learning_CVPR_2019_paper.pdf))
+
+|*TAML*| Mini<br>(5w,1s) | Mini<br>(5w,5s) |Omn<br>(5w,1s) | Omn<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|
+|ConvNet-4|51.73±1.88|66.05±0.85|99.23 ± 0.35|99.71 ± 0.1|
 
 
-3. 【ICLR‘19】**Meta-learning with latent embedding optimization**
+4. 【ICLR‘19】**Meta-learning with latent embedding optimization**
 *Andrei A. Rusu, Dushyant Rao, Jakub Sygnowski, Oriol Vinyals*
 [paper](https://arxiv.org/pdf/1807.05960)
 [code](https://github.com/deepmind/leo)
@@ -33,7 +40,7 @@
 |WRN28|61.76 ± 0.08|77.59 ± 0.12|66.33 ± 0.05|81.44 ± 0.09|
 
 
-4. 【ICLR‘19】**Meta-Learning with Implicit Gradients**
+5. 【ICLR‘19】**Meta-Learning with Implicit Gradients**
 *Aravind Rajeswaran, , Jakub Sygnowski, Sham M. Kakade, Sergey Levine*
 [paper](https://proceedings.neurips.cc/paper_files/paper/2019/file/072b030ba126b2f4b2374f342be9ed44-Paper.pdf)
 [code](https://github.com/aravindr93/imaml_dev)
@@ -42,10 +49,28 @@
 |:------:|:------:|:------:|:------:|:------:|
 |ConvNet-4|49.30±1.88|59.77±0.73|38.54±1.37|60.24±0.76|
 
-5. 【ArXir‘18】**Recasting gradient-based meta-learning as hierarchical bayes**
+6. 【ArXir‘18】**Recasting gradient-based meta-learning as hierarchical bayes**
 *Erin Grant, Chelsea Finn, Sergey Levine, Trevor Darrell, Thomas Griffiths*
 [paper](https://arxiv.org/pdf/1801.08930)
 
 |*LMAML*| Mini<br>(5w,1s) | Mini<br>(5w,5s) |Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
 |:------:|:------:|:------:|:------:|:------:|
 |ConvNet-4|49.40±1.83|-|-|-|
+
+
+7. 【ICML’18】**Gradient-based meta-learning with learned layerwise metric and subspace**
+*Yoonho Lee, Seungjin Choi*
+[paper](http://proceedings.mlr.press/v80/lee18a/lee18a.pdf)
+[code](https://github.com/yoonholee/MT-net)
+
+|*MT-net*| Mini<br>(5w,1s) | Mini<br>(5w,5s) |Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|
+|ConvNet-4|51.70±1.84|-|-|-|
+
+8. 【tcsvt’22】**Improving the generalization of MAML in few-shot classification via bi-level constraint**
+*Yuanjie Shao, Wenxiao Wu, Xinge You*(CROSS-DOMAIN)
+[paper](http://proceedings.mlr.press/v80/lee18a/lee18a.pdf)
+
+|*BLC-MAML*| Mini<br>(5w,1s) | Mini<br>(5w,5s) |CUB<br>(5w,1s) | CUB<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|
+|ResNet-12|66.26±0.32|82.92±0.30|82.21±0.42|90.99±0.23|
