@@ -222,8 +222,8 @@
 |ResNet12|64.60±0.72|79.51±0.50|67.39±0.82|82.85±0.56|75.6±0.9|86.2±0.6|-|-|
 
 
-18. 【ECCV‘22】**Adaptive Subspaces for Few-Shot Learning**
-<br>*Christian Simon, Piotr Koniusz, Richard Nock, Mehrtash Harandi*
+18. 【ECCV‘22】**Unsupervised Few-Shot Image Classification by Learning Features into Clustering Space**
+<br>*Shuo Li, Fang Liu, Zehua Hao, Kaibo Zhao, Licheng Jiao*
 <br>[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910406.pdf)
 [code](https://github.com/LiShuo1001/LF2CS)
 
@@ -258,16 +258,28 @@
 
 
 
+20. 【ECCV‘22】**Mixture-based feature space learning for few-shot image classification**
+<br>*Shuo Li, Fang Liu, Zehua Hao, Kaibo Zhao, Licheng Jiao*
+<br>[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910406.pdf)
+[code](https://github.com/ArmanAfrasiyabi/MixtFSL-fs)
+
+|*MixtFSL*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |FC100<br>(5w,1s) | FC100<br>(5w,5s)|CUB<br>(5w,1s) | CUB<br>(5w,5s)|
+|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|52.82±0.63|70.67±0.57|-|-|-|-|-|-|
+|Resnet12|63.98±0.79|82.04±0.49|70.97±1.03|86.16±0.67|44.89±0.63|60.70±0.67|-|-|
+|Resnet18|60.11±0.73|77.76±0.58|68.61±0.91|84.08±0.55|41.50±0.67|58.39±0.62|73.94±1.1|86.01±0.5|
+|WRN28|64.31±0.79|81.66±0.60|-|-|-|-|-|-|
 
 
 
+21. 【ICLR‘19】**Learning to propagate labels: Transductive propagation network for few-shot learning**
+<br>*Shuo Li, Fang Liu, Zehua Hao, Kaibo Zhao, Licheng Jiao*
+<br>[paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136910406.pdf)
+[code]([https://github.com/ArmanAfrasiyabi/MixtFSL-fs](https://github.com/csyanbin/TPN-pytorch))
 
-
-
-
-
-
-
+|*MixtFSL*| Mini<br>(5w,1s) | Mini<br>(5w,5s) | Tiered<br>(5w,1s) | Tiered<br>(5w,5s) |
+|:------:|:------:|:------:|:------:|:------:|
+|ConvNet4|53.75|69.43|57.53|72.85|
 
 
 
