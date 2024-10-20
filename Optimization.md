@@ -81,7 +81,7 @@
 <br>[paper](https://openreview.net/pdf?id=BJfOXnActQ)
 
 |*TAML*| Mini<br>(5w,1s) | Mini<br>(5w,5s) |
-|:------:|:------:|:------:|:------:|:------:|
+|:------:|:------:|:------:|
 |ConvNet-4|59.23±0.99|72.35±0.71|
 
 
